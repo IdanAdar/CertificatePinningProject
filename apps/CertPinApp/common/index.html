@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CertPinApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <!--
+    	<link rel="shortcut icon" href="images/favicon.png">
+    	<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    -->
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        window.$ = window.jQuery = WLJQ;
+    </script>
+</head>
+
+<body style="display: none;">
+    <div id="header">
+        <h1>Certificate Pinning test</h1>
+    </div>
+    <div id="wrapper">
+  		<button id="adapterResourceRequest" class="button">Adapter resource request</button><br/>
+  		<button id="resourceRequest" class="button">Resource request</button><br/><br/>
+  		<p>Certificate pinning status: <label id="certificatePinningStatus">Certificate not pinned</label></p>
+    </div>
+
+    <script src="js/initOptions.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/messages.js"></script>
+</body>
+
+</html>
