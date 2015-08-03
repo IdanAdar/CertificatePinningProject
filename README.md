@@ -5,4 +5,5 @@ Sample application demonstrating certificate pinning in MFPF 7.1
 <ol>
     <li>Make sure to place the CA-signed certificate in the server and client application</li>
     <li>Make sure to point the client application to the same host that was used in the certificate</li>
+    <li>Update the method in main.js with the name of your certificate</li>
 </ol>
